@@ -11,7 +11,11 @@ Easy Manage Local or Remote Database by CLI Command.
 
 ## Installation Instruction
 ### MySQL
+- CentOS 7
 - Debian 10
+
+# Notes :
+- All tutorial has been testing before update
 
 Reference: 
 - https://devconnected.com/how-to-install-and-enable-ssh-server-on-debian-10/
