@@ -1,13 +1,13 @@
-## MySQL 5.7/8.0 in Debian 10
+# MySQL 5.7/8.0 in Debian 10
 
-### Step 1 - Update System and Install GNUPG
+## Step 1 - Update System and Install GNUPG
 ```
 apt update
 apt upgrade -y
 apt install gnupg -y
 ```
 
-### Step 2 - Added New PPA
+## Step 2 - Added New PPA
 ```
 wget http://repo.mysql.com/mysql-apt-config_0.8.14-1_all.deb
 dpkg -i mysql-apt-config_0.8.14-1_all.deb
@@ -21,12 +21,12 @@ dpkg -i mysql-apt-config_0.8.14-1_all.deb
 apt update
 ```
 
-### Step 3 - Install MySQL
+## Step 3 - Install MySQL
 ```bash
 apt install mysql-server -y
 ```
 
-### Step 4 - Check Status
+## Step 4 - Check Status
 ```bash
 systemctl status mysql
 ```
@@ -47,7 +47,7 @@ Dec 01 14:16:22 db-test systemd[1]: Starting MySQL Community Server...
 Dec 01 14:16:22 db-test systemd[1]: Started MySQL Community Server...
 ```
 
-### Step 5 - Secure MySQL Installation
+## Step 5 - Secure MySQL Installation
 ```bash
 mysql_secure_installation
 ```
@@ -110,7 +110,7 @@ Success.
 All done! 
 ```
 
-### Step 6 - Testing
+## Step 6 - Testing
 ```bash
 mysql -u root -p
 ```
