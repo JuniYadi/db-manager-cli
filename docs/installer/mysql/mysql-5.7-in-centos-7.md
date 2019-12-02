@@ -26,7 +26,7 @@ systemctl start mysqld
 systemctl status mysqld
 ```
 
-* Output :
+Output :
 
 ```bash
 $ systemctl start mysqld
@@ -56,7 +56,7 @@ Dec 01 14:57:30 db-test systemd[1]: Started MySQL Server.
 grep 'A temporary password' /var/log/mysqld.log |tail -1
 ```
 
-* Output :
+Output :
 
 ```bash
 $ grep 'A temporary password' /var/log/mysqld.log |tail -1
@@ -71,7 +71,7 @@ $ grep 'A temporary password' /var/log/mysqld.log |tail -1
 mysql_secure_installation
 ```
 
-* Output :
+Output :
 
 ```bash
 $ mysql_secure_installation
@@ -139,7 +139,7 @@ All done!
 mysql -u root -p
 ```
 
-* Output :
+Output :
 
 ```bash
 $ mysql -u root -p
