@@ -1,6 +1,6 @@
 # MySQL 5.7 in Centos 7
 
-## Step 1 - Update System and Install GNUPG
+## Step 1 - Update System
 ```bash
 yum update
 ```
