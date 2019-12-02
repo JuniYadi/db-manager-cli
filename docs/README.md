@@ -1,12 +1,61 @@
-# Initial page
+# Introduction
 
-## Can I become who I want to be?
+## Database Manager CLI
 
-That's a tough question but thankfully, our team is on it. Please bear with us while we're investigating.
+Easy Manage Local or Remote Database by CLI Command.
 
-## Have you had a chance to answer the previous question?
+### Database Support
 
-Yes, after a few months we finally found the answer. Sadly, Mike is on vacations right now so I'm afraid we are not able to provide the answer at this point.
+| Name | Support | Status |
+| :--- | :--- | :--- |
+| MySQL | yes | in progress |
+| MariaDB | - | to do |
+| MongoDB | - | to do |
 
+### Installation Instruction
 
+#### MySQL
+
+* CentOS 7
+* Debian 10
+
+## Notes :
+
+* All tutorial has been testing before update
+
+## Install Using CentminMOD
+
+```text
+yum -y update; curl -O https://centminmod.com/betainstaller73.sh && chmod 0700 betainstaller73.sh && bash betainstaller73.sh
+```
+
+### Switch Off Other Apps
+
+* If you need only MySQL or MariaDB database, then you can swtich off other apps with this command :
+
+  ```bash
+  service nginx stop
+  service php-fpm stop
+  service pure-ftpd stop
+  service memcached stop
+  chkconfig nginx off
+  chkconfig php-fpm off
+  chkconfig pure-ftpd off
+  chkconfig memcached off
+  ```
+
+* If you use them back, then run this command :
+
+  ```bash
+  service nginx start
+  chkconfig nginx on
+  ```
+
+Ref: [https://community.centminmod.com/threads/mysql-only-installation.15165/](https://community.centminmod.com/threads/mysql-only-installation.15165/)
+
+## Other Reference
+
+Reference:
+
+* [https://devconnected.com/how-to-install-and-enable-ssh-server-on-debian-10/](https://devconnected.com/how-to-install-and-enable-ssh-server-on-debian-10/)
 
