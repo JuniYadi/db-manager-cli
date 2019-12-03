@@ -18,6 +18,6 @@
     "dbm": "./index.js"
   },
   "scripts": {
-    "compile-linux": "pkg index.js --output compile/linux-x64/gdcli --debug"
+    "compile-linux": "pkg index.js --output compile/dbm-linux-amd64 --debug"
   }
 }
