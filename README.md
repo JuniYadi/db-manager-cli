@@ -6,8 +6,20 @@ Easy Manage Local or Remote Database by CLI Command.
 | Name    | Support | Status      |
 | ------- | ------- | ----------- |
 | MySQL   | yes     | in progress |
-| MariaDB | -       | to do       |
+| MariaDB | yes     | in progress |
 | MongoDB | -       | to do       |
+
+## Feature List
+### MySQL or MariaDB
+| Name                 | Status |
+| -------------------- | ------ |
+| Add Server           | Yes    |
+| List User            | -      |
+| Create New User      | -      |
+| Update Password User | -      |
+| Delete User          | -      |
+| Add New Database     | -      |
+| Delete Database      | -      |
 
 ## Installation Instruction
 ### MySQL
